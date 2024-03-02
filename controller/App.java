@@ -2,12 +2,14 @@ package controller;
 
 import javax.swing.JFrame;
 
-import view.AppWIndow;
+import model.ScreenModel;
+import view.AppWindow;
 
 public class App {
 
 
-    public static final AppWIndow win = new AppWIndow();
+    public static final AppWindow win = new AppWindow();
+    public static final ScreenModel model = new ScreenModel();
     public static void main(String[] args) {
         win.setTitle("Interface Demo");
         win.setLocation(300, 200);
